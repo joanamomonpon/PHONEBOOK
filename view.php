@@ -91,7 +91,7 @@
       Option
     </button>
     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-      <a class="dropdown-item" href="#">Delete</a>
+      <a class="dropdown-item" href="delete.php?id=<?php echo $row["id"]; ?>" onclick="return confirm('are you sure you want to delete?')">Delete</a>
       <a class="dropdown-item" href="#">Edit</a>
     </div>
   </div></td>
